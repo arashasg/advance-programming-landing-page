@@ -1,0 +1,175 @@
+body{
+    background-color: rgb(34, 31, 40);
+    color: white;
+}
+
+.bg {
+    height: 100%; 
+    background-image: url("./images/background4-1.jpg");
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.link-default{
+    color: whitesmoke;
+}
+
+.link-default:hover{
+    text-decoration: none;
+    color: white;
+}
+
+
+.main-container{
+    height: 95%;
+}
+
+.p-2{
+    color: white;
+}
+.banner-left{
+    background-color: rgba(33, 30, 39,1);
+    max-width: 50%;
+    flex-grow: 1;
+}
+
+.banner-right{
+    flex-grow: 1;
+    height: 100%; 
+    max-width: 50%;
+    background-image:radial-gradient( rgba(255,0,0,0),rgba(33, 30, 39,1)), url("./images/background4-1crop.jpg");
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+
+.nav{
+    background-color: rgb(53, 69, 84);
+    height: 5%;
+}
+
+#people{
+    height: 100%;
+}
+
+.person{
+    display: flex;
+}
+
+.inf{
+    color: white;
+    margin-left: 2rem;
+}
+
+.name{
+    font-size: 1.75rem;
+}
+
+.role{
+    font-size: 1rem;
+    color: goldenrod;
+}
+
+.avatar-image-div{
+    width: 6rem;
+    background-color: rgba(33, 30, 39,0);
+    height: 6rem;
+    display: flex;
+}
+
+.avatar{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+hr.lin {
+    border-top: 1px solid goldenrod;
+    width: 100%;
+}
+.references{
+    color: goldenrod;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.referencesList{
+    color: white;
+    font-size: 1.2rem;
+}
+
+ul.pageList {
+    list-style-type: none;
+    margin: 1rem 0 0 1rem  ;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+li.page{
+    width: 50%;
+    background-color: rgba(255,0,0,0);
+}
+
+.page-image-div{
+    width: 4rem;
+    background-color: rgba(33, 30, 39,1);
+    height: 4rem;
+    display: flex;
+}
+.logo{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.pagename{
+    font-size: 1.2rem;
+}
+
+.link-default2{
+    color: goldenrod;
+}
+.link-default2:hover{
+    text-decoration: none;
+    color: gold;
+}
+
+/*TA part*/
+.div-border{
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    margin:0rem;
+    padding: 0%;
+}
+
+.spanning-width {
+    background-color: rgb(53, 69, 84);
+    margin: 0%;
+    padding: 0%;
+}
+
+.ta-container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.ta{
+    min-width: 50%;
+    flex-wrap: wrap;
+    border-right: 1px solid goldenrod;
+}
+
+.div-border h1{
+    border-right: 1px solid goldenrod;
+    padding: 2rem 0 2rem 0;
+    margin: 0%;
+}
+
